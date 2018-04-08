@@ -107,17 +107,21 @@ h2{
 .container p{
 	color:#FFFFFF;
 	font-family:"source-semi";
-	font-size: 60px;
+	font-size: 100px;
 	}
 
 .box1{
 	flex:1;
-	display:none;}
+	display:none;
+	transform: translate(75%,60%);
+	}
 .box2{
 	flex:1;
-	display:none;}
+	display:none;
+	transform: translate(50%,0)}
 .box3{
 	flex:1;
+	transform:translate(15%,-55%);
 	display:none;}
 
 
